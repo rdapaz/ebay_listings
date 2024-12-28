@@ -1,0 +1,52 @@
+# Example with inline description
+---
+title: Belkin Nvision1 Router
+description: |
+  # Belkin Nvision1 Router
+  
+  This powerful router is perfect for home or small office use.
+  
+  ## Features
+  * Wireless N technology
+  * 4 Gigabit Ethernet ports
+  * WPA2 security
+  * Easy setup wizard
+  
+  ## Condition
+  * Excellent working condition
+  * All original accessories included
+  * Original box and manual included
+  
+  ## Technical Specs
+  * Speed: Up to 300Mbps
+  * Range: Up to 1000 sq ft
+  * Dual-band support
+override: true
+photo_1: IMG_5381.jpeg
+photo_2: IMG_5382.jpeg
+out_file: belkin_nvision1_router.html
+
+# Example with file-based description
+---
+title: Sony W200i Phone and Accessories
+description_file: phone_and_accessories.txt  # Will fallback to file if description is not inline
+override: true
+photo_1: phone_and_accessories.jpg
+photo_2: null
+out_file: phone_and_accessories.html
+
+# Example with minimal inline description
+---
+title: Hp 48sx
+description: |
+  Classic HP 48SX scientific calculator in excellent condition. 
+  Perfect for engineering students or collectors.
+  
+  * All buttons working perfectly
+  * Screen in perfect condition
+  * Includes original manual
+  * Batteries not included
+override: true
+photo_1: hp_48sx.jpg
+photo_2: null
+out_file: hp_48sx.html
